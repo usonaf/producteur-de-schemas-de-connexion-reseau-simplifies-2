@@ -1,0 +1,289 @@
+{
+  "run_id": "run-1779492508793",
+  "job_index": 2,
+  "params": {
+    "owner_user_id": "user-1774822953462",
+    "owner_username": "admin",
+    "owner_display_name": "Administrator",
+    "count": 3,
+    "archetype": "generator",
+    "market": "France",
+    "language": "fr",
+    "country": "FR",
+    "brief": "Un outil de création de diagrammes réseau intuitif pour visualiser et documenter les infrastructures informat…",
+    "notes": "Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters. Exportez vos schémas dans divers forma…\nDestiné aux professionnels de l'informatique, aux techniciens réseau et aux étudiants en informatique. Interface simple et rapide.",
+    "import_notes": "",
+    "growth_job_id": "",
+    "growth_slug": "",
+    "growth_kind": "",
+    "external_site_request_id": "",
+    "external_client_ref": "",
+    "external_source_label": "",
+    "dashboard_mode": "builder",
+    "network_site_format": "forum",
+    "network_primary_topic": "",
+    "network_primary_geo": "",
+    "network_domain_pool": "forum-de-jeu.shop",
+    "network_hosting_pool": "4vps:netoper | server_id=447345 | ip=5.253.59.18 | ssh_user=root | ssh_port=22",
+    "network_dns_strategy": "auto_pool_assign",
+    "network_domain_flow": "manual",
+    "network_content_strategy": "",
+    "network_model_concept": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_seo": "google/gemini-2.5-flash-lite:nitro",
+    "network_model_build": "google/gemini-2.5-flash",
+    "network_model_qa": "anthropic/claude-haiku-4.5",
+    "network_model_growth": "google/gemini-2.5-flash-lite:nitro",
+    "network_blueprint_id": "",
+    "mode": "production",
+    "run_kind": "generated_batch",
+    "publish_target": "render",
+    "requested_publish_target": "render",
+    "provider_space_id": "provider-space",
+    "provider_space_name": "Provider space",
+    "allow_url_fallback": false,
+    "railway_project_id_override": "",
+    "railway_environment_id_override": "",
+    "railway_service_id_override": "",
+    "railway_service_name_override": "",
+    "github_repo_private": true,
+    "stage_models": {
+      "ideation": "google/gemini-2.5-flash-lite:nitro",
+      "spec": "google/gemini-2.5-flash",
+      "copy": "google/gemini-2.5-flash-lite:nitro",
+      "qa": "anthropic/claude-haiku-4.5",
+      "escalation": "anthropic/claude-sonnet-4.6"
+    },
+    "archetype_display": "mixed batch",
+    "archetype_mix": [
+      "calculator",
+      "generator",
+      "tool"
+    ],
+    "forced_design_theme": "blueprint-wire",
+    "forced_structure_preset": "metric-grid",
+    "site_idea_title": "Producteur de Schémas de Connexion Réseau Simplifiés",
+    "site_idea_summary": "Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters. Exportez vos schémas dans divers forma…"
+  },
+  "site_spec": {
+    "slug": "producteur-de-schemas-de-connexion-reseau-simplifies-2",
+    "theme": {
+      "name": "Blueprint Wire",
+      "slug": "blueprint-wire",
+      "eyebrow": "Technical Draft",
+      "family": "blueprint-wire",
+      "moods": [
+        "technical",
+        "precise",
+        "drafted",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "estimators",
+        "engineering tools",
+        "developer tools",
+        "ops",
+        "qa"
+      ],
+      "keywords": [
+        "blueprint",
+        "wire",
+        "draft",
+        "precision",
+        "plan"
+      ],
+      "token_index": [
+        "blueprint",
+        "calculator",
+        "developer",
+        "draft",
+        "drafted",
+        "engineering",
+        "estimators",
+        "ops",
+        "plan",
+        "precise",
+        "precision",
+        "systemic",
+        "technical",
+        "tool",
+        "tools",
+        "wire"
+      ],
+      "font_embed": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600;700&display=swap",
+      "display_font": "\"JetBrains Mono\", monospace",
+      "body_font": "\"Inter\", sans-serif",
+      "layout": "swiss",
+      "card_style": "outline",
+      "button_style": "outline",
+      "decor_style": "grid",
+      "hero_template": "1fr 1fr",
+      "seo_template": "1.45fr 0.55fr",
+      "feature_columns": 3,
+      "faq_columns": 4,
+      "hero_min_height": "78vh",
+      "panel_radius": "28px",
+      "card_radius": "26px",
+      "chip_radius": "999px",
+      "button_radius": "18px",
+      "outline_width": "1px",
+      "backdrop_blur": "0px",
+      "palette": {
+        "bg": "linear-gradient(145deg, #0c2340 0%, #163d72 100%)",
+        "surface": "rgba(9, 25, 48, 0.78)",
+        "surface_border": "rgba(125,211,252,0.18)",
+        "text": "#e6f1ff",
+        "muted": "#aac4e8",
+        "accent": "#7dd3fc",
+        "accent_alt": "#f8fafc",
+        "hero_glow": "rgba(125, 211, 252, 0.2)",
+        "button_text": "#082033",
+        "panel_alt": "rgba(255,255,255,0.04)",
+        "shadow": "0 28px 88px rgba(2, 12, 29, 0.36)",
+        "input_fill": "rgba(255,255,255,0.05)"
+      }
+    },
+    "structure": {
+      "name": "Metric Grid",
+      "slug": "metric-grid",
+      "hero_variant": "command",
+      "proof_variant": "metrics",
+      "section_order": [
+        "features",
+        "seo",
+        "proof",
+        "faq"
+      ],
+      "feature_columns": 4,
+      "faq_columns": 2,
+      "family": "data-grid",
+      "moods": [
+        "technical",
+        "precise",
+        "systemic"
+      ],
+      "archetypes": [
+        "tool",
+        "calculator"
+      ],
+      "niches": [
+        "developer tools",
+        "qa",
+        "finance",
+        "analytics"
+      ],
+      "keywords": [
+        "metrics",
+        "grid",
+        "dashboard",
+        "precision"
+      ],
+      "token_index": [
+        "analytics",
+        "calculator",
+        "command",
+        "dashboard",
+        "data",
+        "developer",
+        "faq",
+        "features",
+        "finance",
+        "grid",
+        "metric",
+        "metrics",
+        "precise",
+        "precision",
+        "proof",
+        "seo",
+        "systemic",
+        "technical",
+        "tool",
+        "tools"
+      ]
+    },
+    "render_direction": "campaign-slab",
+    "render_direction_name": "Campaign Slab",
+    "page_blueprint": "dossier-rail",
+    "page_blueprint_name": "Dossier Rail",
+    "title": "Producteur de Schémas de Connexion Réseau Simplifiés",
+    "tagline": "Créez Vos Titres de Diagramme Réseau",
+    "description": "Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters.",
+    "feature_prefix": "Bloc",
+    "action": "Générer le document",
+    "cta_primary": "Générer les Titres",
+    "cta_secondary": "Consulter la FAQ",
+    "inputs": [
+      {
+        "id": "name",
+        "label": "Nom ou entreprise",
+        "type": "text",
+        "placeholder": "Studio Horizon",
+        "weight": 1.0
+      },
+      {
+        "id": "goal",
+        "label": "Objectif du document",
+        "type": "text",
+        "placeholder": "confirmation de demande",
+        "weight": 1.0
+      },
+      {
+        "id": "details",
+        "label": "Détails utiles",
+        "type": "text",
+        "placeholder": "date, montant, référence",
+        "weight": 1.0
+      }
+    ],
+    "hero_metrics": [
+      {
+        "value": "Campaign Slab",
+        "label": "Cadence"
+      },
+      {
+        "value": "3",
+        "label": "Entrées"
+      },
+      {
+        "value": "Brouillon généré",
+        "label": "Sortie"
+      }
+    ],
+    "trust_labels": [
+      "Campaign Slab",
+      "Générer les Titres",
+      "Brouillon généré",
+      "Utilitaire immédiat",
+      "Structure SEO claire"
+    ],
+    "result_label": "Brouillon généré",
+    "result_unit": "",
+    "runtime_mode": "document_generator",
+    "page_variant": "showcase",
+    "faq_topic": "Producteur de Schémas de Connexion Réseau Simplifiés",
+    "faq_entries": [
+      {
+        "question": "Pourquoi utiliser cet outil pour Producteur de Schémas de Connexion Réseau Simplifiés ?",
+        "answer": "Il aide à cadrer le besoin rapidement et à orienter vers une prochaine action claire sur le marché France."
+      },
+      {
+        "question": "Le résultat est-il immédiat ?",
+        "answer": "Oui. L'interface est pensée pour une réponse rapide, lisible et exploitable dès la première interaction."
+      },
+      {
+        "question": "Cette page est-elle adaptée au SEO ?",
+        "answer": "Oui. La structure mélange utilité, clarté éditoriale et signaux de confiance sans surcharger l'expérience."
+      }
+    ],
+    "seo_paragraphs": [
+      "Cette page capte une intention forte autour de Producteur de Schémas de Connexion Réseau Simplifiés et la transforme en action utile pour un public situé sur France.",
+      "Le format hero-first accélère la compréhension, réduit les frictions et améliore la lisibilité sur mobile comme sur desktop.",
+      "Le socle reste volontairement simple pour faciliter les tests, la QA continue et les variations SEO."
+    ],
+    "document_html": "<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\">\n    <title>Producteur de Schémas de Connexion Réseau Simplifiés | Créez Vos Titres de Diagramme Réseau</title>\n    <meta name=\"description\" content=\"Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters.\">\n    <style>\n        :root {\n            --blueprint-blue: #a4fbce; /* a4fbce84fcf4-ish, but a bit more blue-ish as blueprint */\n            --blueprint-dark: #2c3e50;\n            --text-color: #34495e;\n            --background-light: #f4f7f6;\n            --background-dark: #e0e5e6;\n            --accent-color: #2ecc71;\n            --font-display: \"Arial Black\", Gadget, sans-serif;\n            --font-body: \"Segoe UI\", Frutiger, \"Frutiger Linotype\", \"Dejavu Sans\", \"Helvetica Neue\", Arial, sans-serif;\n        }\n\n        body {\n            font-family: var(--font-body);\n            line-height: 1.6;\n            color: var(--text-color);\n            margin: 0;\n            padding: 0;\n            background-color: var(--background-light);\n            display: flex;\n            flex-direction: column;\n            align-items: center;\n        }\n\n        header {\n            background-color: var(--blueprint-dark);\n            color: var(--blueprint-blue);\n            width: 100%;\n            padding: 40px 20px;\n            text-align: center;\n            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);\n            margin-bottom: 30px;\n        }\n\n        h1 {\n            font-family: var(--font-display);\n            font-size: 3em;\n            margin-bottom: 10px;\n            letter-spacing: 1px;\n            text-transform: uppercase;\n        }\n\n        header p {\n            font-size: 1.2em;\n            max-width: 800px;\n            margin: 0 auto;\n        }\n\n        .container {\n            max-width: 960px;\n            width: 100%;\n            padding: 20px;\n            box-sizing: border-box;\n        }\n\n        section {\n            background-color: white;\n            padding: 30px;\n            margin-bottom: 25px;\n            border-radius: 8px;\n            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);\n            border: 1px solid var(--background-dark);\n        }\n\n        h2 {\n            font-family: var(--font-display);\n            color: var(--blueprint-dark);\n            font-size: 2.2em;\n            margin-top: 0;\n            margin-bottom: 20px;\n            text-align: center;\n            text-transform: uppercase;\n        }\n\n        h3 {\n            font-family: var(--font-body);\n            color: var(--blueprint-dark);\n            font-size: 1.5em;\n            margin-top: 25px;\n            margin-bottom: 15px;\n            border-bottom: 2px solid var(--accent-color);\n            padding-bottom: 5px;\n        }\n\n        .form-group {\n            margin-bottom: 18px;\n        }\n\n        label {\n            display: block;\n            margin-bottom: 8px;\n            font-weight: bold;\n            color: var(--text-color);\n        }\n\n        input[type=\"text\"],\n        textarea,\n        select {\n            width: 100%;\n            padding: 12px;\n            border: 1px solid #ccc;\n            border-radius: 5px;\n            box-sizing: border-box;\n            font-size: 1em;\n            font-family: var(--font-body);\n        }\n\n        textarea {\n            min-height: 120px;\n            resize: vertical;\n        }\n\n        button {\n            background-color: var(--accent-color);\n            color: white;\n            padding: 14px 25px;\n            border: none;\n            border-radius: 5px;\n            cursor: pointer;\n            font-size: 1.1em;\n            font-weight: bold;\n            transition: background-color 0.3s ease;\n            width: 100%;\n            max-width: 300px;\n            display: block;\n            margin: 25px auto 0 auto;\n        }\n\n        button:hover {\n            background-color: #28a745;\n        }\n\n        #tool-result {\n            margin-top: 30px;\n            padding: 25px;\n            background-color: var(--background-dark);\n            border-radius: 8px;\n            border: 1px dashed var(--blueprint-dark);\n            min-height: 150px;\n        }\n\n        .result-group {\n            margin-bottom: 20px;\n        }\n\n        .result-group ul {\n            list-style-type: none;\n            padding: 0;\n        }\n\n        .result-group ul li {\n            background-color: white;\n            margin-bottom: 8px;\n            padding: 10px 15px;\n            border-radius: 4px;\n            border: 1px solid #e0e0e0;\n        }\n\n        .features-grid {\n            display: grid;\n            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));\n            gap: 20px;\n            margin-top: 30px;\n        }\n\n        .feature-item {\n            background-color: var(--background-dark);\n            padding: 25px;\n            border-radius: 8px;\n            text-align: center;\n            border: 1px solid #d0d5d6;\n        }\n\n        .feature-item h3 {\n            border-bottom: none;\n            font-size: 1.3em;\n            color: var(--blueprint-dark);\n            margin-top: 0;\n        }\n\n        .feature-item p {\n            font-size: 0.95em;\n        }\n\n        .seo-section {\n            background-color: var(--blueprint-dark);\n            color: var(--blueprint-blue);\n            padding: 40px 20px;\n            margin-top: 40px;\n            text-align: center;\n            border-top: 4px solid var(--accent-color);\n        }\n\n        .seo-section h2 {\n            color: var(--blueprint-blue);\n            margin-bottom: 20px;\n        }\n\n        .seo-section p {\n            max-width: 800px;\n            margin: 0 auto 15px auto;\n            font-size: 0.9em;\n        }\n\n        .seo-section ul {\n            list-style-type: none;\n            padding: 0;\n            max-width: 800px;\n            margin: 0 auto;\n            display: flex;\n            flex-wrap: wrap;\n            justify-content: center;\n        }\n\n        .seo-section ul li {\n            background-color: rgba(255, 255, 255, 0.1);\n            color: var(--blueprint-blue);\n            margin: 5px;\n            padding: 8px 15px;\n            border-radius: 20px;\n            font-size: 0.85em;\n        }\n    </style>\n    <meta name=\"robots\" content=\"index, follow\">\n    <link rel=\"canonical\" href=\"https://producteur-de-schemas-de-connexion-reseau-simplifies-2.onrender.com\">\n    <meta property=\"og:title\" content=\"Producteur de Schémas de Connexion Réseau Simplifiés\">\n    <meta property=\"og:description\" content=\"Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters.\">\n    <meta property=\"og:url\" content=\"https://producteur-de-schemas-de-connexion-reseau-simplifies-2.onrender.com\">\n    <meta property=\"og:type\" content=\"website\">\n    <script type=\"application/ld+json\">{\"@context\": \"https://schema.org\", \"@type\": \"WebApplication\", \"name\": \"Producteur de Schémas de Connexion Réseau Simplifiés\", \"description\": \"Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters.\", \"url\": \"https://producteur-de-schemas-de-connexion-reseau-simplifies-2.onrender.com\", \"applicationCategory\": \"UtilityApplication\", \"operatingSystem\": \"Web Browser\"}</script>\n</head>\n<body data-site-slug=\"producteur-de-schemas-de-connexion-reseau-simplifies-2\" data-runtime-mode=\"document_generator\">\n    <header>\n        <h1>Producteur de Schémas de Connexion Réseau Simplifiés</h1>\n        <p>Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters. Un outil essentiel pour les professionnels de l'informatique, techniciens réseau et étudiants.</p>\n    </header>\n\n    <div class=\"container\">\n        <section>\n            <h2>Créez Vos Titres de Diagramme Réseau</h2>\n            <p>Cet outil vous aide à formuler des titres accrocheurs et descriptifs pour vos schémas réseau. Entrez les mots-clés principaux de votre architecture et laissez notre générateur vous proposer des options variées.</p>\n            <form id=\"tool-form\">\n                <div class=\"form-group\">\n                    <label for=\"keywords\">Mots-clés principaux (ex: \"LAN fibre optique\", \"VPN télétravail\", \"cloud hybride\")</label>\n                    <input type=\"text\" id=\"keywords\" placeholder=\"Séparés par des virgules\" required>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"network_type\">Type de réseau ciblé</label>\n                    <select id=\"network_type\">\n                        <option value=\"general\">Général / Multi-usage</option>\n                        <option value=\"domestique\">Domestique</option>\n                        <option value=\"pme\">Petites et Moyennes Entreprises (PME)</option>\n                        <option value=\"datacenter\">Datacenter / Grande Entreprise</option>\n                        <option value=\"cloud\">Environnement Cloud</option>\n                    </select>\n                </div>\n                <div class=\"form-group\">\n                    <label for=\"audience\">Public cible</label>\n                    <select id=\"audience\">\n                        <option value=\"professionnel\">Professionnels IT / Ingénieurs</option>\n                        <option value=\"etudiant\">Étudiants / Débutants</option>\n                        <option value=\"gestionnaire\">Gestionnaires / Décideurs</option>\n                    </select>\n                </div>\n                <button type=\"submit\" id=\"tool-submit\" data-affiliate-slot=\"generator-cta\">Générer les Titres</button>\n            </form>\n\n            <div id=\"tool-result\">\n                <h3 id=\"result-headline\">Vos suggestions de titres</h3>\n                <div class=\"result-group\" id=\"result-seo\">\n                    <h4>Optimisés SEO</h4>\n                    <ul></ul>\n                </div>\n                <div class=\"result-group\" id=\"result-clickbait\">\n                    <h4>Accrocheurs (Clickbait)</h4>\n                    <ul></ul>\n                </div>\n                <div class=\"result-group\" id=\"result-expert\">\n                    <h4>Pour Experts</h4>\n                    <ul></ul>\n                </div>\n                <div class=\"result-group\" id=\"result-soft\">\n                    <h4>Approche Douce / Éducative</h4>\n                    <ul></ul>\n                </div>\n                <div class=\"result-group\" id=\"result-commercial\">\n                    <h4>Orientés Commercial</h4>\n                    <ul></ul>\n                </div>\n            </div>\n        </section>\n\n        <section>\n            <h2>Pourquoi un bon titre pour vos diagrammes ?</h2>\n            <div class=\"features-grid\">\n                <div class=\"feature-item\">\n                    <h3>Clarté Instantanée</h3>\n                    <p>Un titre précis permet d'identifier rapidement le contenu et l'objectif de votre schéma, même sans l'ouvrir.</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h3>Organisation Optimale</h3>\n                    <p>Facilitez le classement et la recherche de vos documents techniques au sein de vos projets.</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h3>Communication Efficace</h3>\n                    <p>Présentez vos architectures réseau de manière professionnelle et compréhensible pour tous les intervenants.</p>\n                </div>\n                <div class=\"feature-item\">\n                    <h3>Gain de Temps</h3>\n                    <p>Évitez les ambiguïtés et les confusions, réduisant ainsi le temps passé à expliquer ou à corriger.</p>\n                </div>\n            </div>\n        </section>\n\n        <section>\n            <h2>À propos de notre générateur</h2>\n            <p>Conçu pour la flexibilité, notre générateur de titres de diagrammes réseau s'adapte à une multitude de contextes. Que vous documentiez une simple connexion à domicile ou une infrastructure complexe de datacenter, il vous fournira des options pertinentes. Nous comprenons l'importance d'une documentation claire et accessible pour la maintenance, l'évolution et l'audit de toute architecture réseau.</p>\n            <p>Notre objectif est de simplifier votre travail en vous offrant des suggestions de titres qui non seulement décrivent, mais aussi valorisent l'information contenue dans vos schémas.</p>\n        </section>\n    </div>\n\n    <div class=\"seo-section\">\n        <h2>Recherches Fréquentes pour les Schémas Réseau</h2>\n        <p>Découvrez comment cet outil peut répondre à vos besoins spécifiques. Optimisez vos recherches et améliorez la gestion de votre infrastructure.</p>\n        <ul>\n            <li>logiciel diagramme réseau gratuit</li>\n            <li>créer schéma réseau en ligne</li>\n            <li>outil de cartographie réseau</li>\n            <li>visualisation architecture réseau</li>\n            <li>documentation infrastructure IT</li>\n            <li>schéma réseau entreprise</li>\n            <li>plan réseau domestique</li>\n            <li>diagramme infrastructure cloud</li>\n            <li>exemple schéma réseau PME</li>\n            <li>logiciel dessin réseau informatique</li>\n            <li>modèle diagramme réseau Cisco</li>\n            <li>représentation topologie réseau</li>\n            <li>schéma routage réseau</li>\n            <li>outil design réseau</li>\n            <li>générateur diagramme réseau</li>\n        </ul>\n    </div>\n\n    <script>\n        document.getElementById('tool-form').addEventListener('submit', function(e) {\n            e.preventDefault();\n\n            const keywordsInput = document.getElementById('keywords').value.toLowerCase().split(',').map(s => s.trim()).filter(s => s.length > 0);\n            const networkType = document.getElementById('network_type').value;\n            const audience = document.getElementById('audience').value;\n\n            const baseKeywords = keywordsInput.length > 0 ? keywordsInput.join(', ') : 'réseau informatique';\n\n            const generateTitles = () => {\n                let seoTitles = [];\n                let clickbaitTitles = [];\n                let expertTitles = [];\n                let softTitles = [];\n                let commercialTitles = [];\n\n                // SEO Titles\n                seoTitles.push(`Diagramme Réseau : ${baseKeywords} - Guide Complet`);\n                seoTitles.push(`Architecture ${baseKeywords.split(', ')[0]} : Schéma Détaillé et Optimisation`);\n                if (networkType !== 'general') seoTitles.push(`Schéma Réseau ${networkType.charAt(0).toUpperCase() + networkType.slice(1)} : ${baseKeywords.split(', ')[0]}`);\n                seoTitles.push(`Documentation Technique : ${baseKeywords} - Infrastructure et Connectivité`);\n\n                // Clickbait Titles\n                clickbaitTitles.push(`Le Secret d'une Architecture ${baseKeywords.split(', ')[0]} Parfaite Révélé !`);\n                clickbaitTitles.push(`Stop aux Pannes ! Votre Schéma ${baseKeywords.split(', ')[0]} en 5 Minutes !`);\n                clickbaitTitles.push(`Incroyable : Visualisez Votre Réseau ${baseKeywords.split(', ')[0]} Comme Jamais !`);\n                clickbaitTitles.push(`Votre Réseau ${baseKeywords.split(', ')[0]} : Ce Diagramme Va Tout Changer !`);\n\n                // Expert Titles\n                expertTitles.push(`Topologie ${baseKeywords.split(', ')[0]} : Analyse Profonde et Modélisation Avancée`);\n                expertTitles.push(`Implémentation ${baseKeywords.split(', ')[0]} : Planification et Schématisation Infrastructurelle`);\n                expertTitles.push(`Schéma Réseau de Production : ${baseKeywords} - Résilience et Performance`);\n                expertTitles.push(`Architecture Distribuée : Diagramme de Flux et Interconnexions ${baseKeywords.split(', ')[0]}`);\n\n                // Soft / Educational Titles\n                softTitles.push(`Comprendre Votre Réseau : Un Schéma ${baseKeywords.split(', ')[0]} pour Tous`);\n                softTitles.push(`Découverte de l'Architecture ${baseKeywords.split(', ')[0]} : Le Guide Simple en Images`);\n                softTitles.push(`Apprenez à Schématiser Votre Réseau ${baseKeywords.split(', ')[0]} Facilement`);\n                softTitles.push(`Les Bases du Diagramme Réseau : Visualiser ${baseKeywords.split(', ')[0]}`);\n\n                // Commercial Titles\n                commercialTitles.push(`Optimisez Votre Infrastructure : Schéma Réseau ${baseKeywords.split(', ')[0]} sur Mesure`);\n                commercialTitles.push(`Solutions Réseau Pro : Diagramme ${baseKeywords.split(', ')[0]} pour Votre Entreprise`);\n                commercialTitles.push(`Modernisez Votre Réseau : Conception et Visualisation ${baseKeywords.split(', ')[0]} Avancée`);\n                commercialTitles.push(`Déploiement Stratégique : Votre Schéma ${baseKeywords.split(', ')[0]} pour une Croissance Assurée`);\n\n\n                // Add variations based on network_type\n                if (networkType === 'domestique') {\n                    seoTitles.push(`Schéma Réseau Domestique : Optimisation Wi-Fi et Filaire`);\n                    clickbaitTitles.push(`Votre Maison Connectée : Le Plan Réseau Que Vous Attendiez !`);\n                    expertTitles.push(`Topologie LAN Résidentiel : Sécurité et QoS`);\n                } else if (networkType === 'pme') {\n                    seoTitles.push(`Schéma Réseau PME : Infrastructure et Sécurité Cyber`);\n                    clickbaitTitles.push(`PME : Dites Adieu aux Problèmes Réseau avec Ce Schéma !`);\n                    expertTitles.push(`Architecture Réseau d'Entreprise : Conception pour PME Scalable`);\n                } else if (networkType === 'datacenter') {\n                    seoTitles.push(`Diagramme Datacenter : Architecture Hautes Performances et Résiliente`);\n                    clickbaitTitles.push(`La Cartographie Ultime de Votre Datacenter Révélée !`);\n                    expertTitles.push(`Schéma DCI (Datacenter Interconnect) et VXLAN/EVPN`);\n                } else if (networkType === 'cloud') {\n                    seoTitles.push(`Schéma Architecture Cloud : Sécurité et Scalabilité`);\n                    clickbaitTitles.push(`Maîtrisez Votre Cloud : Le Diagramme Indispensable !`);\n                    expertTitles.push(`Topologie Cloud Hybride : Réseaux Virtuels et Interconnexions`);\n                }\n\n                // Add variations based on audience\n                if (audience === 'etudiant') {\n                    softTitles.push(`TP Réseau : Créer un Schéma ${baseKeywords.split(', ')[0]}`);\n                    expertTitles.push(`Cas Pratique : Étude de l'Architecture ${baseKeywords.split(', ')[0]}`);\n                } else if (audience === 'gestionnaire') {\n                    commercialTitles.push(`Rapport Exécutif : Vue d'Ensemble de l'Infrastructure ${baseKeywords.split(', ')[0]}`);\n                    seoTitles.push(`Audit et Visualisation Réseau : Synthèse pour Décideurs`);\n                }\n\n                return { seoTitles, clickbaitTitles, expertTitles, softTitles, commercialTitles };\n            };\n\n            const { seoTitles, clickbaitTitles, expertTitles, softTitles, commercialTitles } = generateTitles();\n\n            const renderResults = (id, titles) => {\n                const ul = document.querySelector(`#${id} ul`);\n                ul.innerHTML = '';\n                titles.forEach(title => {\n                    const li = document.createElement('li');\n                    li.textContent = title;\n                    ul.appendChild(li);\n                });\n            };\n\n            renderResults('result-seo', seoTitles);\n            renderResults('result-clickbait', clickbaitTitles);\n            renderResults('result-expert', expertTitles);\n            renderResults('result-soft', softTitles);\n            renderResults('result-commercial', commercialTitles);\n        });\n    </script>\n<div id=\"qa-smoke-result\" hidden></div>\n<script id=\"farmbuilder-affiliate-helper\">\n(function () {\n  window.__UTILITY_AFFILIATE_MAP = window.__UTILITY_AFFILIATE_MAP || {};\n  document.addEventListener(\"click\", function (event) {\n    const target = event.target.closest(\"[data-affiliate-slot]\");\n    if (!target) return;\n    const slot = target.getAttribute(\"data-affiliate-slot\");\n    const href = window.__UTILITY_AFFILIATE_MAP[slot];\n    if (!href) return;\n    if (target.tagName && target.tagName.toLowerCase() === \"a\") {\n      target.setAttribute(\"href\", href);\n      target.removeAttribute(\"rel\");\n      return;\n    }\n    event.preventDefault();\n    window.open(href, \"_blank\");\n  }, true);\n})();\n</script>\n<script id=\"farmbuilder-functional-qa\">\n(function () {\n  function marker() {\n    let node = document.getElementById(\"qa-smoke-result\");\n    if (node) return node;\n    node = document.createElement(\"div\");\n    node.id = \"qa-smoke-result\";\n    node.hidden = true;\n    document.body.appendChild(node);\n    return node;\n  }\n\n  let qaFinished = false;\n  let qaWatchdog = null;\n\n  function normalize(text) {\n    return String(text || \"\").replace(/\\s+/g, \" \").trim();\n  }\n\n  function findForm() {\n    return document.getElementById(\"tool-form\") || document.querySelector(\"form\");\n  }\n\n  function findResult() {\n    return (\n      document.getElementById(\"tool-result\") ||\n      document.querySelector(\"[data-result]\") ||\n      document.querySelector(\".tool-result, .result-card, .result, .results, .output, .preview, .diagnostic, .analysis\")\n    );\n  }\n\n  function primaryAction(form) {\n    if (!form) return null;\n    return (\n      document.getElementById(\"tool-submit\") ||\n      form.querySelector(\"#tool-submit\") ||\n      form.querySelector(\"[data-primary-action]\") ||\n      form.querySelector(\"button[type=submit]\") ||\n      form.querySelector(\"button\") ||\n      form.querySelector(\"input[type=submit]\")\n    );\n  }\n\n  function resultSignature(node) {\n    if (!node) return \"\";\n    const text = normalize(node.textContent);\n    const html = normalize(node.innerHTML).slice(0, 600);\n    return `${text}||${html}`;\n  }\n\n  function resultHeadline(node) {\n    if (!node) return \"\";\n    const heading = node.querySelector(\"h1, h2, h3, strong, b\");\n    return normalize(heading ? heading.textContent : \"\");\n  }\n\n  function sampleText(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"} ${field.placeholder || \"\"}`.toLowerCase();\n    if (/email/.test(key)) return \"bonjour@example.com\";\n    if (/url|site|website|lien/.test(key)) return \"https://example.com/offre-solaire\";\n    if (/phone|tel|mobile/.test(key)) return \"0612345678\";\n    if (/ville|city|localisation|location|region|departement|postal/.test(key)) return \"Paris\";\n    if (/orientation/.test(key)) return \"sud\";\n    if (/keyword|theme|topic|sujet|subject/.test(key)) return \"energie solaire domestique\";\n    if (/titre|title/.test(key)) return \"Simulateur solaire maison\";\n    if (/nom|name|project/.test(key)) return \"Projet Horizon\";\n    if (/description|notes|content|message/.test(key)) return \"Maison individuelle exposee sud avec toiture exploitable.\";\n    return field.placeholder || \"France\";\n  }\n\n  function sampleNumber(field) {\n    const key = `${field.id || \"\"} ${field.name || \"\"}`.toLowerCase();\n    if (/inclinaison|angle|slope/.test(key)) return \"30\";\n    if (/surface|size|m2|sqm/.test(key)) return \"28\";\n    if (/annee|year/.test(key)) return \"2024\";\n    if (/prix|price|budget|cost|amount|montant/.test(key)) return \"12000\";\n    const min = Number(field.min || \"\");\n    const max = Number(field.max || \"\");\n    if (Number.isFinite(min) && Number.isFinite(max) && max >= min) {\n      return String(Math.min(max, Math.max(min, min + Math.round((max - min) * 0.35))));\n    }\n    if (Number.isFinite(min)) return String(Math.max(min, 12));\n    if (Number.isFinite(max)) return String(Math.min(max, 12));\n    return field.value || \"12\";\n  }\n\n  function applySample(field) {\n    const tag = (field.tagName || \"\").toLowerCase();\n    const type = (field.type || \"\").toLowerCase();\n    if (field.disabled) return;\n    if (type === \"hidden\" || type === \"submit\" || type === \"button\" || type === \"reset\" || type === \"image\" || type === \"file\") {\n      return;\n    }\n    const currentValue = normalize(field.value);\n    if (tag === \"select\") {\n      if (currentValue) return;\n      const option = Array.from(field.options || []).find((item) => item.value && !item.disabled) || field.options[0];\n      if (option) field.value = option.value;\n      return;\n    }\n    if (type === \"checkbox\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"radio\") {\n      if (field.checked) return;\n      field.checked = true;\n      return;\n    }\n    if (type === \"date\") {\n      if (currentValue) return;\n      field.value = \"2026-03-01\";\n      return;\n    }\n    if (type === \"email\") {\n      if (currentValue) return;\n      field.value = \"bonjour@example.com\";\n      return;\n    }\n    if (type === \"url\") {\n      if (currentValue) return;\n      field.value = \"https://example.com/offre-solaire\";\n      return;\n    }\n    if (type === \"tel\") {\n      if (currentValue) return;\n      field.value = \"0612345678\";\n      return;\n    }\n    if (type === \"color\") {\n      if (currentValue) return;\n      field.value = \"#2f855a\";\n      return;\n    }\n    if (type === \"number\" || type === \"range\") {\n      if (currentValue) return;\n      field.value = sampleNumber(field);\n      return;\n    }\n    if (currentValue) return;\n    field.value = sampleText(field);\n  }\n\n  function stamp(status, detail, headline, primary) {\n    if (qaFinished) return;\n    qaFinished = true;\n    if (qaWatchdog) {\n      window.clearTimeout(qaWatchdog);\n      qaWatchdog = null;\n    }\n    const node = marker();\n    node.dataset.status = status;\n    node.dataset.mode = \"native-form\";\n    node.dataset.detail = detail || \"\";\n    node.dataset.headline = headline || \"\";\n    node.dataset.primary = primary || \"\";\n    node.dataset.viewport = window.innerWidth <= 640 ? \"mobile\" : \"desktop\";\n    window.setTimeout(function () {\n      try {\n        window.stop();\n      } catch (_error) {}\n    }, 0);\n  }\n\n  function installModalGuards() {\n    const noop = function () {};\n    const approve = function () { return true; };\n    const empty = function () { return \"\"; };\n    try { window.alert = noop; } catch (_error) {}\n    try { window.confirm = approve; } catch (_error) {}\n    try { window.prompt = empty; } catch (_error) {}\n  }\n\n  function triggerAction(form, action) {\n    try {\n      if (typeof form.requestSubmit === \"function\") {\n        form.requestSubmit(action || undefined);\n        return;\n      }\n    } catch (_error) {}\n    if (action && typeof action.click === \"function\") {\n      action.click();\n      return;\n    }\n    form.dispatchEvent(new Event(\"submit\", { bubbles: true, cancelable: true }));\n  }\n\n  function inspectResult(before, attemptsLeft) {\n    const result = findResult();\n    if (!result) {\n      stamp(\"fail\", \"La zone de resultat est introuvable.\", \"\");\n      return;\n    }\n    const after = resultSignature(result);\n    const text = normalize(result.textContent);\n    if (after && after !== before && text.length >= 24) {\n      const primary = result.querySelector(\"a[href], button[data-href], [data-primary-url]\") || document.querySelector(\"#tool-result a[href]\");\n      stamp(\"pass\", \"Le formulaire natif a mis a jour la zone de resultat.\", resultHeadline(result), primary ? (primary.getAttribute(\"href\") || primary.getAttribute(\"data-primary-url\") || \"\") : \"\");\n      return;\n    }\n    if (attemptsLeft > 0) {\n      window.setTimeout(function () {\n        inspectResult(before, attemptsLeft - 1);\n      }, 250);\n      return;\n    }\n    stamp(\"fail\", \"La zone de resultat n'a pas renvoye de contenu exploitable.\", resultHeadline(result));\n  }\n\n  function runSmoke() {\n    const params = new URLSearchParams(window.location.search);\n    if (params.get(\"__qa\") !== \"functional\") return;\n    qaWatchdog = window.setTimeout(function () {\n      stamp(\"fail\", \"QA smoke timed out before the page reported a usable result.\", \"\");\n    }, 7000);\n    const form = findForm();\n    if (!form) {\n      stamp(\"fail\", \"Le formulaire principal est introuvable.\", \"\");\n      return;\n    }\n    const result = findResult();\n    const before = resultSignature(result);\n    installModalGuards();\n    try {\n      form.querySelectorAll(\"input, select, textarea\").forEach(applySample);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke sample failed: ${error.message}` : \"QA smoke sample failed before submit.\", \"\");\n      return;\n    }\n    const action = primaryAction(form);\n    try {\n      triggerAction(form, action);\n    } catch (error) {\n      stamp(\"fail\", error && error.message ? `QA smoke submit failed: ${error.message}` : \"QA smoke submit failed.\", \"\");\n      return;\n    }\n    inspectResult(before, 10);\n  }\n\n  window.addEventListener(\"error\", function (event) {\n    const message = event && event.message ? event.message : \"JavaScript runtime error during QA smoke.\";\n    stamp(\"fail\", `QA smoke JS error: ${message}`, \"\");\n  }, { once: true });\n\n  window.addEventListener(\"unhandledrejection\", function (event) {\n    const reason = event && event.reason;\n    const detail = typeof reason === \"string\"\n      ? reason\n      : reason && reason.message\n        ? reason.message\n        : \"Unhandled promise rejection during QA smoke.\";\n    stamp(\"fail\", `QA smoke rejection: ${detail}`, \"\");\n  }, { once: true });\n\n  if (document.readyState === \"loading\") {\n    document.addEventListener(\"DOMContentLoaded\", function () {\n      window.setTimeout(runSmoke, 60);\n    }, { once: true });\n  } else {\n    window.setTimeout(runSmoke, 60);\n  }\n})();\n</script>\n</body>\n</html>",
+    "generation_mode": "direct_html"
+  }
+}
