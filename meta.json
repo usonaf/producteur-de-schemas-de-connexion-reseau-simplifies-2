@@ -1,0 +1,46 @@
+{
+  "name": "Producteur de Schémas de Connexion Réseau Simplifiés",
+  "description": "Générez visuellement des diagrammes clairs et précis de vos architectures réseau, que ce soit pour des environnements domestiques, PME ou datacenters.",
+  "theme": "generator",
+  "design_theme": "blueprint-wire",
+  "structure_preset": "metric-grid",
+  "render_direction": "campaign-slab",
+  "page_blueprint": "dossier-rail",
+  "language": "fr",
+  "country": "FR",
+  "url": null,
+  "expected_url": "https://producteur-de-schemas-de-connexion-reseau-simplifies-2.onrender.com",
+  "created": "2026-05-22T23:30:50.913752+00:00",
+  "owner_user_id": "user-1774822953462",
+  "owner_username": "admin",
+  "owner_display_name": "Administrator",
+  "provider_space_id": "provider-space",
+  "provider_space_name": "Provider space",
+  "status": "generated",
+  "run_id": "run-1779492508793",
+  "external_site_request_id": null,
+  "external_client_ref": null,
+  "external_source_label": null,
+  "source_type": "generated",
+  "publish_target": "render",
+  "mode": "production",
+  "github": {
+    "status": "pending"
+  },
+  "deployment": {
+    "status": "pending"
+  },
+  "qa": {
+    "status": "pending"
+  },
+  "features": [
+    "Hero pattern: command",
+    "Proof module: metrics",
+    "Design theme: Blueprint Wire",
+    "Render direction: Campaign Slab",
+    "Page blueprint: Dossier Rail",
+    "Runtime mode: document_generator",
+    "Generation mode: direct_html",
+    "Artifact rendered, awaiting QA and deployment"
+  ]
+}
